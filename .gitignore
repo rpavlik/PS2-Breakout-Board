@@ -1,5 +1,13 @@
+# Backup files
 *.bak
 *.kicad_pcb-bak
+
+# Gerber/drill/zipped production files
 *.gbr
 *.drl
 *.zip
+
+# export files for BOM
+*.csv
+*.tsv
+*.xml
