@@ -1,4 +1,4 @@
-update=7/17/2017 10:21:58 AM
+update=7/26/2017 10:29:19 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/Ryan/Google Drive/Electronics/kicad_libs
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -36,3 +36,4 @@ LibName4=conn
 LibName5=interface
 LibName6=contrib
 LibName7=PS2_MINIDIN6_FEMALE
+LibName8=PS2-Breakout-cache
