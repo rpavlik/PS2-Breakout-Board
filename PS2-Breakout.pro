@@ -1,4 +1,4 @@
-update=Date
+update=Tue 01 Oct 2019 03:09:26 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,12 +28,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=interface
-LibName6=contrib
-LibName7=PS2_MINIDIN6_FEMALE
-LibName8=PS2-Breakout-cache
