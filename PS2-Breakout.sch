@@ -17,147 +17,61 @@ $EndDescr
 Text Label 5300 2350 0    60   ~ 0
 CLK
 $Comp
-L Device:R R4
+L Device:R R2
 U 1 1 596CD937
-P 5550 4400
-F 0 "R4" V 5630 4400 50  0000 C CNN
-F 1 "10K" V 5550 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5480 4400 50  0001 C CNN
-F 3 "" H 5550 4400 50  0001 C CNN
-	1    5550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 596CD98C
 P 5250 4400
-F 0 "R3" V 5330 4400 50  0000 C CNN
+F 0 "R2" V 5330 4400 50  0000 C CNN
 F 1 "10K" V 5250 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5180 4400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5180 4400 50  0001 C CNN
 F 3 "" H 5250 4400 50  0001 C CNN
 	1    5250 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
-U 1 1 596CDA17
-P 4650 4400
-F 0 "R1" V 4730 4400 50  0000 C CNN
-F 1 "10K" V 4650 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4580 4400 50  0001 C CNN
-F 3 "" H 4650 4400 50  0001 C CNN
-	1    4650 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
 U 1 1 596CDA3E
 P 4950 4400
-F 0 "R2" V 5030 4400 50  0000 C CNN
+F 0 "R1" V 5030 4400 50  0000 C CNN
 F 1 "10K" V 4950 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4880 4400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4880 4400 50  0001 C CNN
 F 3 "" H 4950 4400 50  0001 C CNN
 	1    4950 4400
 	1    0    0    -1  
 $EndComp
-Text Label 4600 4700 2    60   ~ 0
-CLK2
 Text Label 4900 4700 2    60   ~ 0
 CLK
 Wire Wire Line
 	2850 2700 2850 3000
 Wire Wire Line
 	3300 3000 2850 3000
-Wire Wire Line
-	4650 4250 4650 4200
 Connection ~ 4950 4200
-Connection ~ 5250 4200
 Wire Wire Line
 	4950 4200 4950 4250
 Wire Wire Line
-	5250 4200 5250 4250
-Wire Wire Line
-	4450 4200 4650 4200
-Wire Wire Line
-	5550 4200 5550 4250
-Wire Wire Line
 	5050 4200 5050 5000
 Connection ~ 5050 4200
-Connection ~ 4650 4200
 Wire Wire Line
 	4750 4700 4950 4700
 Wire Wire Line
 	4950 4550 4950 4700
-Wire Wire Line
-	4400 4700 4650 4700
-Wire Wire Line
-	4650 4550 4650 4700
-Wire Wire Line
-	4650 5000 4850 5000
-Text Label 5200 4550 1    60   ~ 0
-DATA2
-Wire Wire Line
-	5250 4550 5250 4600
-Wire Wire Line
-	5200 4300 5200 4600
-Text Label 5500 4550 1    60   ~ 0
+Text Label 5500 4700 2    60   ~ 0
 DATA
-Wire Wire Line
-	5350 4600 5350 5000
-Wire Wire Line
-	5500 4350 5500 4600
-Text Label 3300 2400 2    60   ~ 0
-CLK2
-Text Label 3300 3250 2    60   ~ 0
-DATA2
 Connection ~ 2850 3000
 Text Label 5300 3200 0    60   ~ 0
 DATA
-$Comp
-L power:GND #PWR0101
-U 1 1 596CE2BA
-P 5150 4900
-F 0 "#PWR0101" H 5150 4650 50  0001 C CNN
-F 1 "GND" H 5150 4750 50  0000 C CNN
-F 2 "" H 5150 4900 50  0001 C CNN
-F 3 "" H 5150 4900 50  0001 C CNN
-	1    5150 4900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5150 4900 5150 5000
 Connection ~ 4950 4700
-Connection ~ 4650 4700
-Wire Wire Line
-	5200 4600 5250 4600
-Connection ~ 5250 4600
-Wire Wire Line
-	5350 4600 5500 4600
-Wire Wire Line
-	5550 4600 5550 4550
-Connection ~ 5500 4600
-Text Notes 5800 4750 0    60   ~ 0
-Note: CLK2 and DATA2 are rarely used,\nso their corresponding pullups can be\nleft unpopulated if desired.
 Wire Wire Line
 	4950 4200 5050 4200
 Wire Wire Line
-	5250 4200 5550 4200
-Wire Wire Line
 	5050 4200 5250 4200
-Wire Wire Line
-	4650 4200 4950 4200
 Wire Wire Line
 	2850 3000 2850 3050
 Wire Wire Line
 	2850 2700 3300 2700
 Wire Wire Line
 	4950 4700 4950 5000
-Wire Wire Line
-	4650 4700 4650 5000
-Wire Wire Line
-	5250 4600 5250 5000
-Wire Wire Line
-	5500 4600 5550 4600
 $Comp
 L power:VCC #PWR0102
 U 1 1 5D9C77FE
@@ -192,18 +106,18 @@ F 3 "" H 4450 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J2
+L Connector:Conn_01x04_Male J2
 U 1 1 5D9CAEBD
 P 5150 5200
 F 0 "J2" V 5304 5444 50  0000 L CNN
-F 1 "Conn_01x06_Male" V 5213 5444 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5150 5200 50  0001 C CNN
+F 1 "pin header" V 5213 5444 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5150 5200 50  0001 C CNN
 F 3 "~" H 5150 5200 50  0001 C CNN
 	1    5150 5200
 	0    1    -1   0   
 $EndComp
 $Comp
-L PS2_MINIDIN6_FEMALE:PS2-MINIDIN6-FEMALE J1
+L PS2_MINIDIN6_FEMALE:PS2-MINIDIN6-FEMALE-SINGLE J1
 U 1 1 596CD6A0
 P 4200 2750
 F 0 "J1" H 3500 3400 60  0000 C CNN
@@ -241,4 +155,26 @@ Wire Wire Line
 Connection ~ 3250 2850
 Wire Wire Line
 	3250 2850 3150 2850
+Wire Wire Line
+	5250 4200 5250 4250
+Wire Wire Line
+	5250 4550 5250 4700
+Wire Wire Line
+	5500 4700 5250 4700
+Connection ~ 5250 4700
+Wire Wire Line
+	5250 4700 5250 5000
+$Comp
+L power:GND #PWR0101
+U 1 1 5D9EB168
+P 5150 4900
+F 0 "#PWR0101" H 5150 4650 50  0001 C CNN
+F 1 "GND" H 5155 4727 50  0000 C CNN
+F 2 "" H 5150 4900 50  0001 C CNN
+F 3 "" H 5150 4900 50  0001 C CNN
+	1    5150 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4200 4950 4200
 $EndSCHEMATC
